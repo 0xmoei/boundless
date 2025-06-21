@@ -222,6 +222,9 @@ source ~/.bashrc
 # Verify Bento-client:
 bento_cli --version
 
+# Install just:
+curl -sL https://just.systems/install.sh | bash -s -- --to /usr/local/bin
+
 # Install Boundless CLI:
 cargo install --locked boundless-cli
 export PATH=$PATH:/root/.cargo/bin
